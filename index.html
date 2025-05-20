@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fernanda Skoula</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="style.js" defer></script>
+</head>
+
+<body class="borda">
+
+    <img src="image/FotoPerfil.jfif" alt="Foto de Perfil" class="foto">
+
+    <header>
+        <div class="tema">
+            <button class="bt" id="toggle-theme">Tema</button>
+        </div>
+
+        <div class="titulo">
+            <h1>Bem Vindo(a) ao meu Perfil</h1>
+            <div id="alterar">
+                <h3>Olá, vamos nos conhecer?</h3>
+            </div>
+            <p>Qual é seu nome?</p>
+            <input type="text" id="campoTexto" placeholder="Digite seu nome" required>
+            <button class="botao" onclick="alterarNome()">Enviar</button>
+        </div>
+
+        <hr color="purple" />
+
+        <nav>
+            <ul class="menu">
+                <li>* Meus Hobbys *</li>
+                <li></li>
+                <li><a href="#">Ler</a></li>
+                <li><a href="#">Jogar</a></li>
+                <li><a href="#">Pintar</a></li>
+                <li><a href="#">Fazer Trilha</a></li>
+                <li><a href="#">Praticar Yôga</a></li>
+                <li><a href="#">Assistir séries e filmes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr color="purple" />
+
+    <main class="sobre">
+        <p>
+            Olá, me chamo Fernanda Skoula e tenho 28 anos. Sou formada em Biomeicina, fiz uma pós em Yoga e hoje
+            estou fazendo um curso na Proway de Product Manager e cursando uma segunda graduação em Gestão de TI.
+            Estou trabalhando com estagiária na Philips e dou algumas aula de yôga pra não ficar parada.
+            Amo café, amo estar com a minha família, livros e gatos, inclusive tenho dois gatinhos, a
+            Aurora e o Belco! Essa sou eu (✿◡‿◡)
+        </p>
+    </main>
+
+    <section class="contato">
+
+        <div class="texto">
+            <h3> Entre em contato (´▽`ʃ♡ƪ)</h3>
+            <h4 class="modificar">Preencha seus dados para deixar um recado</h4>
+        </div>
+
+        <form>
+            <label for="email">Deixe seu e-mail</label>
+            <input type="email" id="email" placeholder="seu_email@email.com" required>
+            
+            <br/>
+
+            <label>Deixe seu recado:</label>
+            <textarea placeholder="Digite aqui seu recado" id="recado" cols="30" rows="10"></textarea required>
+            <button type="button" onclick="validarEnvio()" class="botao">Enviar</button>
+        </form>
+    </section>
+
+    <hr color="purple" />
+
+    <footer class="rodape">
+        <div>
+            <p>Me siga nas redes sociais:
+                <i>Fernanda Skoula -
+                    <img src="image/linkedin.png" class="icons">
+                    <a href="https://www.linkedin.com/in/fernandaskoula/" target="blank">Linkedin</a>
+
+                    <img src="image/instagram.png" class="icons">
+                    <a href="#">Instagram</a>
+
+                    <img src="image/github.png" class="icons">
+                    <a href="https://github.com/FernandaPhilips/" target="blank">GitHub</a>
+                </i>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
